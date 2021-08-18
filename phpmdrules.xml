@@ -14,6 +14,10 @@ http://pmd.sf.net/ruleset_xml_schema.xsd" xsi:noNamespaceSchemaLocation="http://
     <rule ref="rulesets/naming.xml" />
     <rule ref="rulesets/unusedcode.xml" />
     <!--Files and folders which needs to be excluded from checking-->
+    <exclude-pattern>\Laravel\Jetstream\Jetstream/*</exclude-pattern>
+    <exclude-pattern>\Illuminate\Support\Facades\Hash/*</exclude-pattern>
+    <exclude-pattern>\Laravel\Fortify\Fortify/*</exclude-pattern>
+    <exclude-pattern>\Illuminate\Support\Facades\RateLimiter/*</exclude-pattern>
     <exclude-pattern>bootstrap/cache/*</exclude-pattern>
     <exclude-pattern>bootstrap/autoload.php</exclude-pattern>
     <exclude-pattern>*/migrations/*</exclude-pattern>
